@@ -23,7 +23,7 @@ spec:
         deployment: httpd
     spec:
       containers:
-      - image: registry.redhat.io/ubi8/httpd-24@sha256:bce042b87bb5f041aadac670b6a19a4dee4f8cf3e3b44dbceb9ebdf027fb334b
+      - image: quay.ocp4.example.com:8443/httpd:v1.1
         imagePullPolicy: IfNotPresent
         name: httpd
         ports:
