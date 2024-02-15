@@ -23,7 +23,7 @@ spec:
         deployment: httpd
     spec:
       containers:
-      - image: quay.ocp4.example.com:8443/httpd:v1.1
+      - image: registry.redhat.io/openshift4/ose-hello-openshift-rhel8:latest
         imagePullPolicy: IfNotPresent
         name: httpd
         ports:
